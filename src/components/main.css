@@ -1,0 +1,104 @@
+:root{
+    --bg-color:rgb(58, 94, 79);
+    --first-color:white;
+    --second-color:black;
+    --b-botton:yellow;
+}
+
+.container{
+    width: 100%;
+    height: 92vh;
+}
+.container::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 92vh;
+    background-color:var(--bg-color) ;
+    z-index: -1;
+}
+.container nav{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    height: 15%;
+    justify-content: space-between;
+    overflow-x: hidden;
+    background: transparent;
+    
+}
+.container h1{
+    padding-left: 30px;
+    color: var(--first-color);
+    text-transform: uppercase;
+}
+.container nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.container nav ul li{
+    padding:10px 10px 0px 10px;
+    list-style: none;
+    margin-right: 60px;
+    transition: all 1s ease ;
+    text-decoration-color: var(--b-botton);
+
+}
+.container nav ul li a{
+    text-decoration: none;
+    color: var(--first-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.hover:hover{
+    transform: translateY(-3px);
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: var(--b-botton);
+    text-underline-offset: 15px;
+}
+.child{
+    display: flex;
+
+}
+.child .one{
+    width: 50%;
+    height:50%;
+    padding: 8% 5% 15px;
+}
+.one b{
+    text-align: start;
+    font-size: 3rem;
+    color: var(--first-color);
+}
+.one p{
+    font-size:1.2rem;
+    color: var(--first-color);
+    padding: 10px 0 15px 0;
+
+
+}
+.explore{
+    margin-left: 15px;
+    background-color: none;
+}
+.one button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 500;
+    background-color: var(--b-botton);
+    font-size: 1rem;
+    margin-top: 10px;
+
+}
+
+.two{
+    width: 50%;
+    padding-left: 10px;
+
+}
+.two img{
+    width: 100%;
+    height: 100%;
+}
