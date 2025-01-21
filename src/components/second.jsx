@@ -8,6 +8,7 @@ import { FaCirclePlus } from 'react-icons/fa6';
 const Second = ( ) => {
     return(
         <>
+
         <section className='two'>
             <div className="sec-parent">
                 <div className='two-text'>

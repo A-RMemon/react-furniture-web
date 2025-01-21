@@ -1,0 +1,40 @@
+.root{
+    --bg-color:rgb(58, 94, 79);
+    --first-color:white;
+    --second-color:black;
+    --b-botton:yellow;
+    --bg-common:rgb(240, 239, 239);
+}
+.fifth-sec{
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-common);
+    display: flex;
+}
+.fifth-child{
+    width: 33.33%;
+    padding: 2%;
+    display: flex;
+}
+.fifth-child span{
+    width: 100%;
+    height: 100%;
+    background: #e5e3e3;
+    border-radius: 20px;
+
+}
+.fifth-child span img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fifth-child div{
+    padding: 2% 4%;
+}
+.fifth-child div b{
+    font-weight: bold;
+}
+.fifth-child div p{
+    margin-top: 1.5%;
+    line-height: 25px;
+}

@@ -7,13 +7,13 @@
 
 .container{
     width: 100%;
-    height: 92vh;
+    height: 100vh;
 }
 .container::before{
     content: '';
     position: absolute;
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     background-color:var(--bg-color) ;
     z-index: -1;
 }
@@ -28,7 +28,7 @@
     
 }
 .container h1{
-    padding-left: 30px;
+    padding-left: 5%;
     color: var(--first-color);
     text-transform: uppercase;
 }
